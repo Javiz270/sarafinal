@@ -1,0 +1,93 @@
+.generate-loan-page {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.loan-flow {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.step-card {
+  padding: 1.5rem;
+}
+
+.step-card h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+  color: var(--color-primary);
+}
+
+.input-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.input-group input {
+  flex: 1;
+}
+
+.book-card, .user-card {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: var(--color-surface-hover);
+  border-radius: var(--radius-md);
+  align-items: center;
+}
+
+.book-cover-small {
+  width: 60px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.book-cover-placeholder {
+  width: 60px;
+  height: 90px;
+  background: var(--color-surface-sunken);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--color-text-tertiary);
+  border-radius: 4px;
+}
+
+.user-avatar {
+  width: 48px;
+  height: 48px;
+  background: var(--color-primary);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.book-details h3, .user-details h3 {
+  margin: 0 0 0.25rem 0;
+  font-size: 1.1rem;
+}
+
+.book-details p, .user-details p {
+  margin: 0;
+}
+
+.summary-box {
+  background: var(--color-surface-sunken);
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  margin-bottom: 1.5rem;
+}
+
+.summary-box p {
+  margin: 0.5rem 0;
+}

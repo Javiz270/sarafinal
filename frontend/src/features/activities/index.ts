@@ -1,0 +1,2 @@
+// activities feature module
+export {};
